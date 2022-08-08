@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTVN5</title>
+    <style>
+        body {
+            box-sizing: content-box;
+            border: 0px;
+            margin-left: 0px;
+            padding: 0px;
+            width: 800px;
+        }
+        #w3img {
+            box-sizing: border-box;
+            size: 50px;
+            max-height: 50px;
+            max-width: 50px;
+            position: relative;
+            top: 15px;
+            left: 20px;
+        }
+        header {
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            font-weight: 800;
+            box-sizing: border-box;
+            display: inline-block;
+            border: 1px black;
+            margin: 0px;
+        }
+        .topbarcontent {
+            box-sizing: content-box;
+            display: inline-block;
+            padding: 30px 15px 30px 15px;
+            margin: 0px;
+            border: 0px solid;
+            position: relative;
+            left: 30px;
+        }
+        .hamburger{
+            width: 300px;
+            height:270px;
+            position: absolute;
+            top:99px;
+            left:15px;
+        }   
+        .hamburger span{
+            position:absolute;
+            width: 18px;
+            height: 3px;
+            background-color: white;
+        }
+        .hamburger span:nth-child(1){
+            top: 0px;
+        }
+        .hamburger span:nth-child(2){
+            top:5px;
+        }
+        .hamburger span:nth-child(3){
+            top: 10px;
+        }
+        .blackbar {
+            background-color: rgba(0, 0, 0, 0.767);
+            box-sizing: border-box;
+            border: 0px solid black;
+            width: 800px;
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        .blackbaritem {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            color: white;
+            display: inline-block;
+            box-sizing: content-box;
+            border: 0px solid white;
+            padding:8px;
+            margin: 0px;
+            text-decoration: none;
+            position: relative;
+            left: 55px;
+        }
+        #greenhover:hover {
+            background-color: rgba(23, 163, 23, 0.781);
+            color: white;
+        }
+        #green {
+            background-color: rgba(10, 192, 10, 0.808);
+        }
+        #black:hover {
+            background-color: black;
+        }
+        .home {
+            background-image: url(https://www.w3schools.com/default.asp);
+            width: 18px;
+            height: 18px;
+            position: relative;
+            top: 3px;
+            left: 50px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <img id="w3img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png" alt="">
+        <div class="topbarcontent" id="greenhover">Tutorials</div>
+        <div class="topbarcontent" id="greenhover">References</div>
+        <div class="topbarcontent" id="greenhover">Exercises</div>
+        <div class="topbarcontent" id="greenhover">Videos</div>
+    </header>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="blackbar">
+        <span class="blakcbaritem" id="menu"></span>
+        <img class="home" src="data:image/png;base64,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" alt="">
+        <a class="blackbaritem" id="green" href="https://www.w3schools.com/html/default.asp">HTML</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/css/default.asp">CSS</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/sql/default.asp">SQL</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/python/default.asp">PYTHON</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/php/default.asp">PHP</a>
+        <a class="blackbaritem" id="black" href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a>
+        </div>
+</body>
+</html>
