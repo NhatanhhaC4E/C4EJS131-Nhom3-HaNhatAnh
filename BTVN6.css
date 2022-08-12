@@ -1,0 +1,316 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+.head {
+    background-color: rgba(0, 0, 0, 0.734);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    font-size: large;
+    color: white;
+    position: sticky;
+}
+.head1left {
+    width: 50%;
+    align-items: center;
+    padding: 15px 20px;
+}
+.head1right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.head2 {
+    border: 0px solid black;
+    margin: 0px 5px;
+    padding: 15px 10px;
+}
+.head3 {
+    width: fit-content;
+    height: fit-content;
+    border: 0px solid black;
+    margin: 0px 5px;
+    padding: 15px 10px;
+}
+.head4 {
+    border: 0px solid black;
+    margin: 0px 5px;
+    padding: 15px 10px;
+}
+.head5 {
+    display: inline-flex;
+    border: 1px solid black;
+    margin: 0px 5px;
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+.head6 {
+    border: 0px solid black;
+    margin: 0px 5px;
+    padding: 5px 5px;
+    white-space: nowrap;
+}
+.mindxer {
+    background-image: linear-gradient(90deg,rgba(61, 141, 173, 0.904), rgba(99, 224, 26, 0.945));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.mindxer1 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+.mindxer2 {
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.project {
+    background-image: linear-gradient(90deg,rgba(247, 180, 149, 0.904), rgba(236, 76, 151, 0.945));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.somepj {
+    max-width: 100%;
+    padding: 25px;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+.samplearea {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content:center;
+}
+.imgsample1 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+        
+}
+#imgsp1 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;
+    
+}
+.sampletext1 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;    
+}
+.imgsample2 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-10.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+}
+#imgsp2 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;    
+}
+.sampletext2 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;
+}
+.imgsample3 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-11%20.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+
+}
+#imgsp3 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;    
+}
+.sampletext3 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;
+}
+
+.imgsample4 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-08.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+}
+#imgsp4 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;    
+}
+.sampletext4 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;
+}
+
+.imgsample5 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-13%20.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+}
+#imgsp5 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;    
+}
+.sampletext5 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;
+}
+
+.imgsample6 {
+    width: 300px;
+    height: 225px;
+    background-image: url(https://resources.mindx.edu.vn/uploads/images/anh%20web-12.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 15px;
+}
+#imgsp6 {
+    width: 300px;
+    height: 215px;
+    flex-basis: 33.33333%;    
+}
+.sampletext6 {
+    background-color: black;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 15px 15px;
+    flex-basis: 33.33333%;
+}
+.showall {
+    display:inline-block;
+    text-decoration: none;
+    align-self: center;
+    width: fit-content;
+    padding: 15px 20px;
+    background-color: grey;
+
+}
+.showall:hover {
+    background-color: red;
+}
+.showlink {
+    text-decoration: none;
+    color: white;
+    font-weight: 750;
+}
+
+.sec3 {
+    background-image: linear-gradient(90deg,rgba(51, 177, 226, 0.904), rgba(99, 224, 26, 0.945));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.worktgt {
+    padding-bottom: 20px;
+    color: white;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+.cf {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
