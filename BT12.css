@@ -1,0 +1,66 @@
+
+.readinglistarea{
+  background-color: rgb(236, 236, 236);
+  width: 80%;
+  height: auto;
+  border: 1px solid gainsboro;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0,2) 0px 7px 29px 15px;
+  border-radius: 5px;
+}
+.searcharea {
+  width: 99%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#searcharea-1{
+  font-weight: 600;
+  font-size: xx-large;
+  padding: 5px 15px;
+}
+#searcharea-2{
+  font-weight: 300;
+  font-size: large;
+  padding: 5px 15px;
+}
+.searchbar{
+  padding: 5px 15px;
+}
+.bookarea {
+  width: 99%;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 249, 252);
+}
+.booklist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.add-remove-area {
+  display: flex;
+  flex-direction: column;
+
+}
+.booktitle {
+  padding: 10px 15px 10px 20px;
+  min-height: 25px;
+  border-left: 2px solid rgb(177, 174, 174);
+}
+.BTN {
+  justify-items:end;
+}
+.addarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

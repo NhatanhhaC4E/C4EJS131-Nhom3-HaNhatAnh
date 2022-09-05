@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BT12.css">
+</head>
+<body>
+<div class="readinglistarea">
+    <div class="searcharea">
+        <div id="searcharea-1">Reading List</div>
+        <div id="searcharea-2">Reading list in 2022</div>
+        <form action="" method="get" class="searchbar">
+            <input type="text" name="search_text" id="searchid" placeholder="Search books...">
+        </form>
+    </div>
+    <div class="bookarea">
+        <h3>Book to Read</h3>
+        <ul class="booklist">
+            <div class="add-remove-area">
+            <li> 
+                <span class="booktitle">Lap trinh web can ban</span>
+                <span class="deletebutton">
+                    <button class="BTN" id="deleteBtn" type="button" onclick="onclick()">Delete</button>
+                </span>
+            </li>
+            <li> 
+                <span class="booktitle">Lap trinh Fullstack Web</span>
+                <span class="deletebutton">
+                    <button class="BTN" id="deleteBtn" type="button" onclick="onclick()">Delete</button>
+                </span>
+            </li>
+            <li> 
+                <span class="booktitle">Lap trinh Mobile App</span>
+                <span class="deletebutton">
+                    <button class="BTN" id="deleteBtn" type="button" onclick="onclick()">Delete</button>
+                </span>
+            </li>
+            <li>
+                <span class="booktitle">Lap trinh Nodejs</span>
+                <span class="deletebutton">
+                    <button class="BTN" id="deleteBtn" type="button" onclick="onclick()">Delete</button>
+                </span>
+            </li>
+            <div class="addarea">
+                <form action="" method="get" id="add-book">
+                    <input type="text" name="search_text" id="searchid" placeholder="Add a book...">
+                </form>
+                <button class="BTN2" type="button" onclick="onclick()">Add</button>
+            </div>
+            </div>
+        </ul>
+    </div>
+</div>
+<script src="BT12.js"></script>
+</body>
+</html>
