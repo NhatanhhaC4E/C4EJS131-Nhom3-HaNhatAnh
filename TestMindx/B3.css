@@ -1,0 +1,143 @@
+body{
+    background-color: azure;
+}
+h1 {
+    padding-top: 2em;
+}
+.Interface {
+    display: flex-box;
+    min-height: 60vh;
+    width: 80vw;
+    background-color: white;
+    margin: 5rem;
+}
+.Menu {
+    box-sizing: border-box;
+    margin: 3em;
+    min-width: 70vw;
+}
+.Menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    box-sizing: border-box;
+
+}
+.searchicon {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    width: 14px;
+  }
+  
+  
+.searchicon:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
+.Searchbar {
+    position: relative;
+    display: flex;
+    min-width: 12em;
+
+  }
+.searchinput {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+.navbar {    
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+    box-sizing: border-box;
+    margin: 0 0 0 30px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+  }
+.navitem{
+    display: flex;
+    padding: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.navitem:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    color: white;
+    background-color: rgba(94, 94, 209, 0.637);
+    border-radius: 3px;
+}
+.Userdisplay{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-width: 70vw;
+    margin-left: 3em ;
+}
+.userbox {
+    display: flex;
+    margin: 0 1em 1em 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(94, 94, 209, 0.637);
+    border-radius: 5px;
+    width: 15em;
+    height: 8em;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
+}
+.infobox {
+    display: block;
+    padding: 2px;
+}
+.username{
+    font-weight:bolder;
+    box-sizing: border-box;
+    font-size: larger;
+    margin-top: 5px;
+}
+.address{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hobbies {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: rgb(37, 174, 216);
+    height: 50px;
+    display: inline-block;
+}
+.hobbiesbox{
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid rgba(95, 138, 138, 0.856);
+    border-radius: 10%;
+    padding: 2px;
+    font-size: small;
+    margin-bottom: 1em;
+}
+.hobbiesbox:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    color: white;
+    background-color: rgb(37, 174, 216);
+    border-radius: 3px;
+}
+.userimg{
+    border-radius: 50%;
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+    object-fit:cover;
+}
