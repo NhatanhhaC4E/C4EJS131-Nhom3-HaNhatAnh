@@ -1,0 +1,241 @@
+:root {
+    --text-color: #ffffff;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* CSS phần Services !!! */
+.services {
+    width: 100%;
+    height: auto;
+    /* border: 3px solid #28242c; */
+    display: flex;
+    flex-direction: column;
+}
+.navbar__logo-ser {
+    margin-top: 13px;
+}
+.services__contact {
+    width: 100%;
+    height: 1031px;
+    background-image: linear-gradient(120deg, #394969,#13172C);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+/* CSS phần dữ liệu bên phải */
+
+.services__contact-left {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 600;
+    /* position: relative; */
+    
+    
+}
+.services__contact-left h1 {
+    font-size: 4.8rem;
+    /* margin-bottom: 0; */
+}
+.services__contact-left--check {
+    display: flex;
+    font-size: 2.4rem;
+    /* height: auto; */
+    position: relative;
+    
+}
+.check__ser {
+    display: flex;
+    align-items: center;
+    /* height: auto; */
+    cursor: pointer;
+    flex: 1;
+}
+
+
+.check__list {
+    list-style: none;
+    min-width: 250px;
+    width: auto;
+    height: auto;
+    border: 1px solid #394969;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 0;
+    background-image: linear-gradient(180deg, rgba(19, 23, 44, 0), #13172C);
+    position: absolute;
+    bottom: -60px;
+    left: 220px;
+    transform-origin: left center;
+    animation: checkList ease-in 0.1s;
+    display: none;
+    
+}
+.check__ser:hover +.check__list {
+    display: block;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.check__ser::before {
+    content: "";
+    position: absolute;
+    left: 220px;
+    width: 100px;
+    height: 150px;
+    display: block;
+    /* background-color: red; */
+}
+@keyframes checkList {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.listLine {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    line-height: 29px;
+}
+.listLine__money {
+    /* display: none; */
+    position: absolute;
+    left: 160px;
+    top: 0;
+    transform-origin: left center;
+    animation: checkList ease-in 1s;
+}
+/* .listLine:hover .listLine__money {
+    display: block;
+} */
+
+.services__contact-left--add {
+    width: 511px;
+    height: 129px;
+    font-size: 2.8rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 0; */
+    padding: 0;
+
+}
+.services__contact-left--p {
+   font-size: 2.4rem;
+   font-weight: 300;
+
+}
+
+
+/* CSS phần dữ liệu khách hàng bên trái*/
+.services__contact-right {
+    width: 503px;
+    height: 550px;
+    border: 1px;
+    border-color: linear-gradient(180deg, rgba(19, 23, 44, 0.3), rgb(19, 23, 44));
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, #999fbe 20%, #13172c);
+    position: relative;
+}
+.dataname {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    /* display: none; */
+    
+   
+}
+.dataname__form {
+    display: flex;
+    font-size: 24px;
+    color: white;
+    justify-self: center;
+    height: 29px;
+    
+    /* line-height: 29px; */
+
+}
+.dataname__form label {
+    max-width: 200px;
+    padding-left: 52px;
+    padding-top: 5px;
+    font-weight: 600;
+    flex: 1;
+}
+.dataname__form input {
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: inherit;
+    width: 250px;
+    margin-right: 51px;
+    font-size: 2.4rem;
+    
+}
+.dataname__form-btn {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+.dataname__form-btn button {
+    border: 1px solid #394969;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 29px;
+    color: white;
+    justify-self: center;
+    cursor: pointer;
+}
+.dataname__form-btn button:hover {
+    color: bisque;
+}
+
+
+.dataNameText {
+    height: auto;
+    width: 80%;
+    margin: 10%;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    display: none;
+}
+
+#service {
+    box-shadow: 0 0 5px #bc13fe,
+        0 0 5px #bc13fe;
+    border-radius: 5px;
+    color: #e39dff;
+}
+.neon-light {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #bc13fe, 0 0 40px #bc13fe, 0 0 50px #bc13fe, 0 0 60px #bc13fe, 0 0 70px #bc13fe;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
